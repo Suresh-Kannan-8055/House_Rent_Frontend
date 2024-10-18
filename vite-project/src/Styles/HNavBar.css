@@ -1,0 +1,75 @@
+.header {
+  height: 34px;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
+  justify-content: space-between;
+}
+.header .Hline {
+  height: 70%;
+  width: 1.5px;
+  background-color: #98a0ac;
+}
+.logo {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  height: 100%;
+  object-fit: contain;
+}
+.title {
+  color: #eee;
+  font-size: 12px;
+  font-family: "Segoe UI";
+}
+.Searchbar {
+  width: 30%;
+}
+.rightheader {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 10px;
+}
+.notification .icon {
+  color: #ddd;
+  font-size: 25px;
+}
+.notification {
+  color: #1c1c1c;
+  padding: 5px;
+}
+.notification:hover {
+  cursor: pointer;
+  background-color: #e4e8ee;
+  border-radius: 5px;
+  color: #e4e8ee;
+}
+.notification:hover .icon {
+  color: black;
+}
+.userDetails {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI";
+  gap: 2px;
+}
+.userDetails .role {
+  color: gray;
+  font-size: 12px;
+}
+.userDetails .name {
+  font-size: 14px;
+}
+.userDetailsContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  height: 100%;
+}

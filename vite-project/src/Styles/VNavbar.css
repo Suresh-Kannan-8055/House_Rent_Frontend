@@ -1,0 +1,137 @@
+.sidebar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 271.01px;
+    height: 103.4%;
+    background-color: #333333;
+    border-collapse: collapse;
+    color: gray;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .sidebar.collapsed {
+    width: 70px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0 1px 0;
+  }
+  
+  .sidebar-title {
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: 'Lucida Sans';
+    color: #ddd;
+  }
+  
+  .sidebar-menu {
+    padding-top: 0;
+    width: 100%;
+  }
+  
+  .menu-section {
+    width: 93%;
+    margin-top: 20px;
+    padding-left: 5px;
+  }
+  .sidebar-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 13px;
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  .close {
+    background-color: #5078E1;
+    color: white;
+    text-align: center;
+    width: 23px;
+    height: 30px;
+    margin-left: 0px;
+    padding-right: 10px;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  .open {
+    background-color: #5078E1;
+    color: white;
+    text-align: center;
+    width: 23px;
+    height: 30px;
+    margin-left: 5px;
+    padding-right: 8px;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-button {
+    display: flex;
+    padding: 8px 5px 0px 10px;
+    margin: 10px;
+    height: 30px;
+    width: 25px;
+    color: #aaa;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+.nav-button:hover {
+      background-color: #5078E1;
+    color: #eee;
+  }
+  .nav-button:hover .label {
+    color: #fff;
+  }
+  .nav-button.active {
+    background-color: #5078E1;
+  }
+  .nav-button.active .icon {
+    color: #eee;
+  }
+  .label.active {
+    color: #fff;
+  }
+  
+  .nav-button .icon {
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  .label {
+    color: #ccc;
+    font-size: 14px;
+    padding-top: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .nav-button.collapsed {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    flex-direction: column;
+    margin-bottom: 12px;
+    padding: 8px 2px 5px 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  .nav-button.collapsed span {
+    font-size: 10px;
+    margin: 0;
+  }
+  
+
+  
+  
