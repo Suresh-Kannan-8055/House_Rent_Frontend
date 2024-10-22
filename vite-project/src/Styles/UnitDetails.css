@@ -1,0 +1,221 @@
+.modal-content {
+  position: absolute;
+  font-family: "Segoe UI";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 8px;
+  width: 900px;
+  height: 658px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.modal-content .unit-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #E4E8EE;
+}
+.unit-header p {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+.unit-details-modal {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.unit-info-section {
+  width: 381.75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unit-info-section .images {
+  width: 381.75px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.unit-main-image {
+  width: 205px;
+  height: 168px;
+  border-radius: 8px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px 8px;
+}
+
+.unit-image-small {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+.unit-main{
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom:20px ;
+    border-bottom: 2px solid #F5F7FA;
+}
+.unit-main .unit-name{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.unit-main .unit-number {
+    margin: 0;
+  font-size: 10px;
+  background-color: #F5F7FA;
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px 10px;
+  color: #98A0AC;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.unit-main .unit-address{
+    font-size: 14px;
+    color: #4E5A6B;
+    margin-top: 5px;
+}
+.unit-stats {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  color: #555;
+}
+.unit-stats p{
+    margin: 0;
+    color: #4E5A6B;
+    font-weight: 500;
+    font-size: 14px;
+}
+.unit-stats .dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 10px 1px 0 1px;
+    background-color: #ced3dd;
+}
+
+.pricing-details-section {
+  width: 434px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.handbook-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.handbook-link p{
+    margin: 0;
+    color: #091B29;
+    font-size: 14px;
+    font-weight: 500;
+}
+.handbook-link a {
+  color: #5078E1;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing-details-section {
+    width: 434px;
+    height: 540px;
+    background-color: #F8F9FB;
+    border-radius: 16px;
+    padding: 15px;
+  }
+  
+  .pricing-details-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #3D4A5A;
+  }
+  
+  .pricing-items {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    margin-bottom: 50px;
+    overflow-y: auto;
+  }
+  
+  .pricing-item {
+    font-size: 14px;
+    color: #4E5A6B;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E4E8EE;
+    margin-bottom: 15px;
+  }
+  .pricing-item p{
+    margin: 0;
+    font-weight: 600;
+  }
+  .pricing-item .price{
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .bill-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bill-name, .bill-amount {
+    margin: 0;
+  }
+  
+  .discount-unit {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #A0A0A0;
+    margin-top: 10px;
+  }
+  
+  .final-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: #E4E8EE;
+    color: #091B29;
+  }
+  

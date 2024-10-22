@@ -21,13 +21,14 @@
   height: 100%;
   object-fit: contain;
 }
-.title {
+.logo .nav-title {
   color: #eee;
   font-size: 12px;
   font-family: "Segoe UI";
 }
 .Searchbar {
-  width: 30%;
+  width: 25%;
+  margin-right: 180px;
 }
 .rightheader {
   display: flex;

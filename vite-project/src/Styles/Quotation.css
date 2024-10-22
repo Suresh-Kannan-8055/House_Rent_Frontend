@@ -1,0 +1,64 @@
+
+.quotation-summary{
+    width: 410px;
+    font-family: 'Segoe UI';
+  }
+  
+  .title{
+    color:#4E5A6B;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .table{
+      height: 408px;
+      width: 100%;
+      background-color: #F5F7FA;
+      border-radius: 4px;
+  }
+  .table-column{
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+
+  }
+  .top{
+    display: flex;
+     flex-direction: column;
+     height: 350px;
+     gap: 10px;
+  }
+  .table-title{
+    display: flex;
+      color: #98A0AC;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform:uppercase;
+      justify-content: space-between;
+  }
+  .rows{
+      color: #4E5A6B;
+      display: flex;
+      font-size: 14px;
+      font-weight: 600;
+  }
+  
+  .rows div{
+    flex: 1;
+    text-align: center;
+  }
+  .rows div:nth-child(3){
+      text-align: end;
+  }
+  .rows>div:nth-child(1){
+      text-align: start;
+  }
+  .rows div:nth-child(2) {
+    margin-left: 25px;
+  }
+  
+  .rows .money{
+      font-weight: bolder;
+      color: #091B29;
+  }

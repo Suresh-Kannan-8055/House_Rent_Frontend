@@ -8,7 +8,7 @@ const SearchBar = ({ placeholder = "Search", fullWidth = true }) => {
       sx={{
         "& .MuiInputBase-root": {
           backgroundColor: "#5d5d5d",
-          color: "white",height:"35px"
+          color: "white",height:"34px",
         },
       }}
       slotProps={{

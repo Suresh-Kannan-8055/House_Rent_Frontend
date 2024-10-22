@@ -1,14 +1,11 @@
 import { Outlet } from "react-router-dom";
-import HNavBar from "../../Components/HNavBar";
-import { useState } from "react";
-import { MyContext } from "../../MyContext";
-import VNavBar from "../../Components/VNavBar";
+import HNavBar from "../../Components/Modules/HNavBar";
+import VNavBar from "../../Components/Modules/VNavBar";
+import { MyContextProvider } from "../../MyContext";
 
 const Layout = () => {
-  const [isCollapsed, setIsCollapsed] = useState(true);
-
   return (
-    <MyContext.Provider value={{ isCollapsed, setIsCollapsed }}>
+    <MyContextProvider>
       <div
         style={{
           height: "97vh",
@@ -29,7 +26,7 @@ const Layout = () => {
           </div>
         </div>
       </div>
-    </MyContext.Provider>
+    </MyContextProvider>
   );
 };
 
